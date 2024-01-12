@@ -31,3 +31,23 @@ body {
     display: block;
     padding: 15px;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.right-box {
+    padding: 20px;
+    background-color: #636363;
+}
+
+.center-box {
+    padding: 20px;
+    background-color: #adadad;
+}
+
+.left-box {
+    padding: 20px;
+    background-color: #c8c8c8;
+}
