@@ -9,6 +9,11 @@ body {
     background-color: #f5f5dc;
 }
 
+body {
+    position: relative;
+    width: 100%;
+}
+
 .header {
     margin: 30px 15px;
 }
@@ -34,7 +39,7 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .right-box {
@@ -50,4 +55,16 @@ body {
 .left-box {
     padding: 20px;
     background-color: #c8c8c8;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategrey;
+}
+
+.text-footer {
+    padding: 20px 30px;
+    text-align: center;
 }
