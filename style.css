@@ -16,6 +16,8 @@ body {
 
 .header {
     margin: 30px 15px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar {
@@ -24,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    flex: 1;
 }
 
 .navbar-item {
@@ -35,6 +38,10 @@ body {
     text-decoration: none;
     display: block;
     padding: 15px;
+}
+
+.logo {
+    flex: 0;
 }
 
 .color-red {
