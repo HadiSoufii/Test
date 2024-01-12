@@ -16,6 +16,8 @@ body {
 
 .header {
     margin: 30px 15px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar {
@@ -24,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     list-style-type: none;
+    flex: 1;
 }
 
 .navbar-item {
@@ -37,6 +40,14 @@ body {
     padding: 15px;
 }
 
+.logo {
+    flex: 0;
+}
+
+.color-red {
+    color: red;
+}
+
 .main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -45,16 +56,19 @@ body {
 .right-box {
     padding: 20px;
     background-color: #636363;
+    text-align: justify;
 }
 
 .center-box {
     padding: 20px;
     background-color: #adadad;
+    text-align: justify;
 }
 
 .left-box {
     padding: 20px;
     background-color: #c8c8c8;
+    text-align: justify;
 }
 
 .footer {
