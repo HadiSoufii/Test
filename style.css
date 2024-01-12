@@ -1,10 +1,33 @@
 * {
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
     direction: rtl;
     background-color: #f5f5dc;
+}
+
+.header {
+    margin: 30px 15px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-item {
+    margin-inline: 20px;
+    display: block;
+}
+
+.navbar-link {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
 }
