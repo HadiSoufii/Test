@@ -37,6 +37,10 @@ body {
     padding: 15px;
 }
 
+.color-red {
+    color: red;
+}
+
 .main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
